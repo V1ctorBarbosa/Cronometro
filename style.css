@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100&family=Supermercado+One&display=swap');
+
+
+
+:root {
+  --primary-color : #FEA443;
+  --secondary-color: #fff;
+}
+
+body {
+  background: var(--primary-color);
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+}
+    
+#minutes, #seconds, #tens{
+  font-size: 25vw;
+  color: var(--secondary-color);
+}
+
+.points {
+  font-size: 10vw;
+  color: var(--secondary-color);
+}
+
+button {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  border: solid 1px  var(--secondary-color);
+  font-family: 'Lato', sans-serif;
+  cursor:pointer;
+
+  font-size: 5vw;
+  padding: 50px 50px;
+  width: 30vw;  
+}
+
+.buttons {
+  display: flex;
+}
+
+.buttons > * {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
